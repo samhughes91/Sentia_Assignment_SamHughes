@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "environmentTag": {
+            "value": "dev"
+        },
+		 "projectTag": {
+            "value": "sentia"
+        },
+		"resourceName": {
+            "value": "hades"
+        },
+        "objectId": {
+            "value": "0020b314-2f32-490c-8464-3eca8b8c3be3"
+        },
+        "secretName": {
+            "value": "secretPassword"
+        },
+        "secretValue": {
+            "value": "IT'S_WORKING!"
+        },
+        "adminUsername": {
+            "value": "odinadmin"
+        },
+        "adminPassword": {
+            "value": "Abcdefg1234567!"
+        },
+        "dnsLabelPrefix" : {
+            "value" : "sentiawebapp"
+        }
+
+    }
+}
