@@ -9,10 +9,10 @@
             "value": "sentia"
         },
 		"resourceName": {
-            "value": "hades"
+            "value": null
         },
         "objectId": {
-            "value": "0020b314-2f32-490c-8464-3eca8b8c3be3"
+            "value": null
         },
         "secretName": {
             "value": "secretPassword"
@@ -21,10 +21,10 @@
             "value": "IT'S_WORKING!"
         },
         "adminUsername": {
-            "value": "odinadmin"
+            "value": null
         },
         "adminPassword": {
-            "value": "Abcdefg1234567!"
+            "value": null
         },
         "dnsLabelPrefix" : {
             "value" : "sentiawebapp"
