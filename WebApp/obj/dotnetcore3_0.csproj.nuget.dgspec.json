@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAHUGHES\\source\\repos\\NewApplications\\dotnetcore\\dotnetcore3_0.csproj": {}
+    "C:\\Users\\SAHUGHES\\OneDrive - Capgemini\\Desktop\\Sentia_Assignment\\webapp\\dotnetcore3_0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAHUGHES\\source\\repos\\NewApplications\\dotnetcore\\dotnetcore3_0.csproj": {
+    "C:\\Users\\SAHUGHES\\OneDrive - Capgemini\\Desktop\\Sentia_Assignment\\webapp\\dotnetcore3_0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAHUGHES\\source\\repos\\NewApplications\\dotnetcore\\dotnetcore3_0.csproj",
+        "projectUniqueName": "C:\\Users\\SAHUGHES\\OneDrive - Capgemini\\Desktop\\Sentia_Assignment\\webapp\\dotnetcore3_0.csproj",
         "projectName": "dotnetcore3_0",
-        "projectPath": "C:\\Users\\SAHUGHES\\source\\repos\\NewApplications\\dotnetcore\\dotnetcore3_0.csproj",
+        "projectPath": "C:\\Users\\SAHUGHES\\OneDrive - Capgemini\\Desktop\\Sentia_Assignment\\webapp\\dotnetcore3_0.csproj",
         "packagesPath": "C:\\Users\\SAHUGHES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAHUGHES\\source\\repos\\NewApplications\\dotnetcore\\obj\\",
+        "outputPath": "C:\\Users\\SAHUGHES\\OneDrive - Capgemini\\Desktop\\Sentia_Assignment\\webapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

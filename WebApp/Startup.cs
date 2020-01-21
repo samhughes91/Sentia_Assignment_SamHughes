@@ -27,7 +27,7 @@ namespace dotnetcore
             services.AddControllersWithViews();
             services.AddOptions();
             services.AddMvc();
-            services.Configure<AzureStorageConfig>(Configuration.GetSection("AzureStorageConfig")); // XXX can be found in ImagesController.cs include when you get there.
+            services.Configure<AzureStorageConfig>(Configuration.GetSection("AzureStorageConfig")); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
