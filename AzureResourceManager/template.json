@@ -194,7 +194,7 @@
                 "[variables('ADLName')]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
          {
