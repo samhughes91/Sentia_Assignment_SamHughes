@@ -8,6 +8,21 @@ As part of a Sentia Assessment I have been tasked with using ARM templates and b
 - A Load balancer that sits between the web app and the public facing internet
 - Use tags to group resources
 
+## Files
+Azure Resource Manager:
+- parameters.json
+- template.json
+
+Documentation: 
+- Assignment_architecture.JPG
+- Timelog.xlsx
+
+WebApp
+- All files for web app
+
+README.MD (This document)
+
+
 ## Assumptions
 - You need to automate provisioning of the above stated requirements in Azure.
 - You do not want to use the Azure App Service (or ASE)
@@ -134,11 +149,20 @@ Follow the above steps to publish the web app to the second vm
 
 ## Testing
 - Both VMs have DNS configured, you can navigate to the VMs separately to ensure both are working
-- The VM's have been placed in a load balancer back end pool. The public facing ip address decides which VM you will navigate to.
+- The VM's have been placed in a load balancer back end pool. The lb public facing ip address decides which VM you will navigate to.
+- Navigate to your LB Public facing IP (or DNS) from your development machine
+- Upload a .JPG file
+- Log into your Azure Data Lake and verify the .JPG is saved in the 'images' container
+- append /api/secrettest/ to the URL to test if the secret value is retrieved from the Azure Key Vault
 
 ## Additional
 - Azure Policy incorporated into solution
-- Availability set incorporated into solution. The VMs are configured in 2 Fault domains and 5 update domains
+- Subnet
+- Azure Virtual Machine
+- NIC
+- public IPs 
+- NSG
+- Availability Set (the VMs are configured in 2 Fault domains and 5 update domains)
 
 ## References
  - Web app
