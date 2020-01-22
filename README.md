@@ -12,7 +12,7 @@ As part of a Sentia Assessment I have been tasked with using ARM templates and b
 - You need to automate provisioning of the above stated requirements in Azure.
 - You do not want to use the Azure App Service (or ASE)
 - Your web app is targeted at .NET Framework 3.0
-- This tutorial goes beyond the required ARM-templates to prove the environment is configured to host a .NET 3.0 web app
+- This tutorial goes beyond the required ARM-templates to prove the environment is configured properly to host a .NET 3.0 web app
 - You want your solution based in a European location
 
 ## Prerequisites
@@ -33,7 +33,7 @@ Open Powershell and log into your Azure account by using ````Connect-AzAccount``
 # set resourceGroup name (lower case letters)
 $resourceGroup = '<yourresourcegroupname>'
 
-# Create resourceGroupe
+# Create resourceGroup
 New-AzResourceGroup $resourceGroup -location 'westeurope'
 ```
 ### Create an Azure Policy
@@ -121,12 +121,9 @@ Now it's time to deploy the web app to the Azure Virtual Machine. I've chosen to
 ````
 - Click Save
 - Update the appsettings.json file. 
-	- AccountName
-    - Name of your ADL Gen 2
-	- AccountKey
-    - Access Key for your ADL Gen 2
-	- VaultName
-    - Name of your Key Vault
+	- AccountName (Name of your ADL Gen 2)
+	- AccountKey (Access Key for your ADL Gen 2)
+	- VaultName (Name of your Key Vault)
 - Save the file
 - Navigate back to the dotnetcore3_0 tab and hit publish
 - When prompted, enter the password as stated in the parameters.json file
