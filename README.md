@@ -8,6 +8,21 @@ As part of a Sentia Assessment I have been tasked with using ARM templates and b
 - A Load balancer that sits between the web app and the public facing internet
 - Use tags to group resources
 
+## Files
+Azure Resource Manager:
+- parameters.json
+- template.json
+
+Documentation: 
+- Assignment_architecture.JPG
+- Timelog.xlsx
+
+WebApp
+- All files for web app
+
+README.MD (This document)
+
+
 ## Assumptions
 - You need to automate provisioning of the above stated requirements in Azure.
 - You do not want to use the Azure App Service (or ASE)
@@ -138,7 +153,12 @@ Follow the above steps to publish the web app to the second vm
 
 ## Additional
 - Azure Policy incorporated into solution
-- Availability set incorporated into solution. The VMs are configured in 2 Fault domains and 5 update domains
+- Subnet
+- Azure Virtual Machine
+- NIC
+- public IPs 
+- NSG
+- Availability Set (the VMs are configured in 2 Fault domains and 5 update domains)
 
 ## References
  - Web app
