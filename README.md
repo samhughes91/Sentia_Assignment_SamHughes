@@ -149,7 +149,11 @@ Follow the above steps to publish the web app to the second vm
 
 ## Testing
 - Both VMs have DNS configured, you can navigate to the VMs separately to ensure both are working
-- The VM's have been placed in a load balancer back end pool. The public facing ip address decides which VM you will navigate to.
+- The VM's have been placed in a load balancer back end pool. The lb public facing ip address decides which VM you will navigate to.
+- Navigate to your LB Public facing IP (or DNS) from your development machine
+- Upload a .JPG file
+- Log into your Azure Data Lake and verify the .JPG is saved in the 'images' container
+- append /api/secrettest/ to the URL to test if the secret value is retrieved from the Azure Key Vault
 
 ## Additional
 - Azure Policy incorporated into solution
