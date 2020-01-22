@@ -116,8 +116,8 @@ Now it's time to deploy the web app to the Azure Virtual Machine. I've chosen to
   This fix will enable you to publish without needing to configure certificates, please note this is not best practice.
   
 ````
-    <UseMSDeployExe>true</UseMSDeployExe>
-		<AllowUntrustedCertificate>true</AllowUntrustedCertificate>
+	<UseMSDeployExe>true</UseMSDeployExe>
+	<AllowUntrustedCertificate>true</AllowUntrustedCertificate>
 ````
 - Click Save
 - Update the appsettings.json file. 
